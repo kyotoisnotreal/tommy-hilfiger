@@ -1,0 +1,33 @@
+:root {
+    --background-color: #181a1b;
+
+    --text-muted: #b2afab;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+
+    background-color:var(--background-color);
+    padding: 1em;
+
+    a {
+        color: var(--text-muted);
+        text-decoration: none;
+
+        padding: 0 1em;
+
+        &:hover {
+            color: red;
+        }
+    }
+}
