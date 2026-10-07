@@ -15,16 +15,22 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    
+    position: sticky;
+    top: 0;
 
     background-color:var(--background-color);
-    padding: 1em;
+    padding: calc(.6em + 1.5vw);
+
+    .buttons {
+        display: flex;
+        gap: calc(.5em + 1vw);
+    }
 
     a {
         color: var(--text-muted);
         text-decoration: none;
 
-        padding: 0 1em;
+        font-size: calc(.8em + .1vw);
 
         &:hover {
             color: red;
