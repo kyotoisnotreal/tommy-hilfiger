@@ -1,5 +1,7 @@
 :root {
-    --background-color: #181a1b;
+    --header-background-color: #181a1b;
+    --background-color: #1F1F1F;
+    --ascent-color: #8b3326;
 
     --text-muted: #b2afab;
 }
@@ -18,12 +20,18 @@ header {
     position: sticky;
     top: 0;
 
-    background-color:var(--background-color);
+    background-color:var(--header-background-color);
     padding: calc(.6em + 1.5vw);
 
     .buttons {
         display: flex;
         gap: calc(.5em + 1vw);
+
+        flex: 1;
+    }
+
+    .logo {
+        flex:  0 0 auto;
     }
 
     a {
@@ -36,4 +44,9 @@ header {
             color: red;
         }
     }
+}
+
+main {
+    background-color: var(--background-color);
+    height: 100vh;
 }
