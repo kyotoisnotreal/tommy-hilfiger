@@ -1,5 +1,5 @@
 const testFields = {
-    banner : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftestsigma.com%2Fblog%2Fwp-content%2Fuploads%2FRandom-Testing-In-Software-Testing-An-Overview.png%3Fformat%3Dwebp%26w%3D3840%26q%3D75&f=1&nofb=1&ipt=b001100f5795f93a59dab4cacc96412fde2603083650f9edddda4cf7b9c117bd&ipo=images",
+    banner : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.kendam.com%2Fphotos%2Ffull%2F34a1092a82baaecd0750772433849ff1_3215.jpg&f=1&nofb=1&ipt=8a9a8783ccf0c9f45c994a605593de000d6b4ef3208e8fdc5311ea519a44b869&ipo=images",
     image1 : "",
     image2 : "",
     image3 : "",
@@ -20,4 +20,3 @@ const testFields = {
     bg.src = testFields.banner;
     bg.alt = "Advertisement Banner";
 })();
-
